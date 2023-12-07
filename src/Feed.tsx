@@ -132,8 +132,8 @@ const Feed: React.FC<Props> = ({ provider }) => {
             <div className="card_content" key={post.id}>
               <p className="card_title">{parseInt(String(post.id))}</p>
               <p className="card_title">{post.examName}</p>
-{/*               <p className="card_text"><b>Name:<br/> </b>{post.studentName}</p>
-              <p className="card_text"><b>StudentID:<br/> </b>{post.studentEmail.slice(0, post.studentEmail.indexOf('@'))}</p> */}
+{/*               <p className="card_text"><b>Name:<br/> </b>{post.studentName}</p> */}
+              <p className="card_text"><b>StudentID:<br/> </b>{post.studentEmail.slice(0, post.studentEmail.indexOf('@'))}</p>
               <p className="card_text"><b>Marks:<br/> </b>{post.studentMarks}</p>
             </div>
           </div>
