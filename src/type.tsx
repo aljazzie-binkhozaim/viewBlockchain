@@ -6,7 +6,7 @@ export const typeExam = [
         name: "cs"
     },
     {
-        name:'maths'
+        name:'math'
     },
     {
         name:'physics'
