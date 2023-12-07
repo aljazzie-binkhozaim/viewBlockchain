@@ -46,7 +46,7 @@ const Feed: React.FC<Props> = ({ provider }) => {
       const { ethereum } = window
 
       if (ethereum) {
-        const accountAddress = "0x0d406C76dBb012BA70802832a00dbc1F4f64f7B4"
+        const accountAddress = "0xfad32934ce67118dfc58d93141316b4fa98c7044"
         const StudentContract = new ethers.Contract(
           accountAddress,
           abi,
@@ -68,7 +68,7 @@ const Feed: React.FC<Props> = ({ provider }) => {
       const { ethereum } = window
 
       if (ethereum) {
-        const accountAddress = "0x0d406C76dBb012BA70802832a00dbc1F4f64f7B4"
+        const accountAddress = "0xfad32934ce67118dfc58d93141316b4fa98c7044"
         const StudentContract = new ethers.Contract(
           accountAddress,
           abi,
