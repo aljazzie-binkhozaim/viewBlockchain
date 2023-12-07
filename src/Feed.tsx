@@ -110,7 +110,8 @@ const Feed: React.FC<Props> = ({ provider }) => {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
-        <button onClick={handleSearch}>Search</button>
+        <button onClick={handleSearch}
+          style={{ backgroundColor: "#5b56af",  margin: "20px"}}>Search</button>
       </div>
       <div>
         {typeExam.map((item, index) => (
@@ -136,9 +137,9 @@ const Feed: React.FC<Props> = ({ provider }) => {
                 <div className="card_content">
                   <p className="card_title">{parseInt(String(post.id))}</p>
                   <p className="card_title">{post.examName}</p>
-                  <p className="card_text">
+{/*                   <p className="card_text">
                     <b>Name:<br /> </b>{post.studentName}
-                  </p>
+                  </p> */}
                   <p className="card_text">
                     <b>StudentID:<br /> </b>{post.studentEmail.slice(0, post.studentEmail.indexOf('@'))}
                   </p>
